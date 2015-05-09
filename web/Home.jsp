@@ -11,10 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <style>           
             #header2 {
-                background-image:url("3.jpg");
+                background-image:url("3_1.jpg");
                 color:black;
                 text-align:left;
-                padding:55px;
+                padding:70px;
             }
             #header3 {
                 background-color:#BC3C2E;
@@ -52,8 +52,11 @@
 
     </head>
     <body style="background-color:#F9F9F9">
-        <div id="header2">  
-            <left><a href="Home.jsp"><img width="414" height="143" src="logo.jpg"></a></left>                             
+        <div id="header2" style="float:bottom">  
+            
+            <a href="Home.jsp"><img  width="414" height="143" src="logo.jpg"> 
+            
+                                  
         </div>
 
        <div id="header3">                

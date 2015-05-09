@@ -12,14 +12,14 @@
         <title>JSP Page</title>
         <style>
             #header2 {
-                background-image:url("3.jpg");
+                background-image:url("3_1.jpg");
                 color:black;
                 text-align:left;
-                padding:55px;
+                padding:70px;
             }
             #header3 {
-                background-color:#C6E2FF;
-                color:white;
+                background-color:#BC3C2E;
+                color: #F5FFFA;
                 text-align:left;
                 padding:1px;
             }
@@ -53,24 +53,24 @@
     <body>
         <jsp:useBean class="com.sample.StudentBean" id="bb" scope="session"/> 
         <div id="header2">  
-            <left><a href="Home.jsp"><img width="414" height="143" src="logo.jpg"></a></left>                             
+            <a href="Home.jsp"><img  width="414" height="143" src="logo.jpg">                       
         </div>
 
-        <div id="header3">                
-            <table  id="01" style="width: 100%"">
-                <tr>
-                    <td style="text-align:left" ><p style="color: #8B4726"><a href='Home.jsp'><b>Home</b></a></td> 
-                    <td style="text-align:left" ><a href='AddStudent.jsp'><b>Add New Student</a></td>
+         <div id="header3">                
+                <table  id="01" style="width: 100%"">
+                    <tr>
+                        <td style="text-align:left" ><p style="color: #8B4726"><a href='Home.jsp'><b style="color: #ffffff">Home</b></a></td> 
+                        <td style="text-align:left" ><a href='AddStudent.jsp'><b  style="color: #ffffff">Add New Student</a></td>
 
-                    <td style="text-align:left" ><a href='search.jsp'><b>Search Student</b></a></td>
-                    <td style="text-align:left" ><a href='Update.jsp'><b>Update Student</a></td>
-                    <td style="text-align:left" ><a href='Delete.jsp'><b>Delete Student</a></td>
-                    <td style="text-align:left" ><a href='Logout.jsp'><b>Logout</a></td>
+                        <td style="text-align:left" ><a href='showData.jsp'><b  style="color: #ffffff">Search Student</b></a></td>
+                        <td style="text-align:left" ><a href='About.jsp'><b  style="color: #ffffff">About</a></td>
+                        <td style="text-align:left" ><a href='Logout.jsp'><b  style="color: #ffffff">Logout</a></td>
 
-                </tr>       
+                    </tr>       
 
-            </table>           
-        </div>
+                </table>   
+
+            </div>
 
         <div id="nav">
             <strong><h2>TOP CÁC TRƯỜNG ĐẠI HỌC DANH TIẾNG TRÊN THẾ GIỚI </h2></strong>
